@@ -1,0 +1,19 @@
+<plugin name='ajaxdependancyselection' version='0.21' grailsVersion='2.0 &gt; *'>
+  <title>Ajax Dependancy Selection Plugin</title>
+  <description>Defines next auto completion/selection form field values ensuring it is bound on previous auto completed/selected form field. This can be used on two or more objects of hasMany and belongsTo. Provides: g:autocomplete, g:autoCompletePrimary, g:autoCompleteSecondary, g:autoCompleteSecondaryNR, g:selectPrimary, g:selectSecondary , g:selectSecondaryNR &amp;  g:selectController.</description>
+  <documentation>http://grails.org/plugin/ajaxdependancyselection</documentation>
+  <type>AjaxdependancyselectionGrailsPlugin</type>
+  <resources>
+    <resource>ajaxdependancyselection.AutoCompleteController</resource>
+    <resource>ajaxdependancyselection.AutoCompleteService</resource>
+    <resource>ajaxdependancyselection.AutoCompleteTagLib</resource>
+  </resources>
+  <repositories>
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+    <repository name='grailsCentral' url='http://grails.org/plugins' />
+  </repositories>
+  <dependencies />
+  <plugins />
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>
